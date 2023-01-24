@@ -1,16 +1,12 @@
 
-import { Link } from "react-router-dom";
+import UniqueLinks from "../UniqueLinks/UniqueLinks";
 import "./Header.scss";
 
 const Header = () => {
 
     return (
         <header>
-            <ul>
-                <Link className="header__link" to="/contact">Contact</Link>
-                <Link className="header__link" to="/services">Services</Link>
-                <Link className="header__link" to="/about">About</Link>
-            </ul>
+            <UniqueLinks />
         </header>
     )
 }
